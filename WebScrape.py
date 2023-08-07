@@ -1,6 +1,5 @@
 #   Web content scraper.
-# This code comes from Nikolas Schriefer on Github with some slight modifications by me Mateo
-# I have sent him an email asking for permission to use his code as he does not have a license on his project
+# This code is inspired by Nikolas Schriefer on github and his project 'Summarizer'
 
 # --- GUIDE FOR TEAM MEMBERS ---
 
