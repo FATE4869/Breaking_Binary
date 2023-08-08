@@ -7,7 +7,7 @@
 # Follow the below steps in your script to use it:
 
 # 1. Import the WebScrape class from this script: `from scraper import WebScrape`
-# 2. Create an instance: `my_scraper = WebScrape()`
+# 2. Create an instance: `my_scraper = WebScrape.WebScrape()`
 # 3. Fetch a web page: `web_page = my_scraper.fetch_url('https://example.com')`
 # 4. Extract the text content: `text_content = my_scraper.parse_html_content(web_page)`
 # 5. Now, 'text_content' contains the text content of the web page. Use it as per your need.
@@ -54,3 +54,4 @@ class WebScrape:
             txt.text for txt in parsed_html.find_all(["h1", "h2", "h3", "p"]) if len(txt.text) > 5
         ]
         return "\n\n".join(text_parts)
+
