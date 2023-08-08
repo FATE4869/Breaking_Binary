@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Input Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-a">
+      <a class="project-name-a" href="input_form.html"> PERSPECTIFY </a>
+    </div>
+
+    <form method="post">
+      <input
+        class="input-box"
+        name="input-box"
+        type="text"
+        placeholder="INPUT SOURCE URL TO BE ANALYZED"
+        required=""
+      />
+      <!-- {% csrf_token %} {{ form.as_p }} -->
+      <button type="submit" class="input-button">
+        <img
+          src="assets/input-button.png"
+          alt="input button"
+          width="65%"
+          height="65%"
+        />
+      </button>
+    </form>
+
+    <div class="footer-a">
+      <a href="index.html">
+        <img
+          class="footer-item-a"
+          src="assets/SureStart.png"
+          alt="SureStart logo"
+      /></a>
+      <a href="index.html"
+        ><img
+          class="footer-item-a"
+          src="assets/FutureMakers.png"
+          alt="FutureMakers logo"
+      /></a>
+    </div>
+  </body>
+</html>
