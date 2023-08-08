@@ -1,8 +1,8 @@
-# Project: (Insert Name Here)
+# Project: Perspectify
 
 ## Overview
 
-(Insert Name Here) is a tool designed to make the consumption and understanding of online articles easier and more efficient. The application utilizes advanced natural language processing techniques to summarize articles, provide different perspectives on the topic, and detect possible biases. This project is designed to help readers get the most out of their online reading experience by reducing the time and effort required to comprehend complex articles, and by offering a multi-faceted view on the subject matter.
+Perspectify is a tool designed to make the consumption and understanding of online articles easier and more efficient. The application utilizes advanced natural language processing techniques to summarize articles, provide different perspectives on the topic, and detect possible biases. This project is designed to help readers get the most out of their online reading experience by reducing the time and effort required to comprehend complex articles, and by offering a multi-faceted view on the subject matter.
 
 ## Features
 
@@ -28,7 +28,9 @@ We welcome contributions from everyone. Feel free to create an issue or make a p
 
 ## License
 
-(Insert Here)
+This project is licensed under the terms of the MIT license.
+
+For the full license, see [LICENSE](LICENSE)
 
 ## Acknowledgements
 
