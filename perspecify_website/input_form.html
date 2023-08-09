@@ -6,27 +6,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <div class="navbar">
+      <a class="home-link" href="input_form.html">HOME</a>
+      <a class="about-link" href="index.html#about">ABOUT</a>
+      <a class="contact-link" href="index.html#contact">CONTACT</a>
+    </div>
+
     <div class="header-a">
-      <a class="project-name-a" href="input_form.html"> PERSPECTIFY </a>
+      <p class="project-name-a">PERSPECTIFY</p>
     </div>
 
     <form method="post">
-      <input
-        class="input-box"
-        name="input-box"
-        type="text"
-        placeholder="INPUT SOURCE URL TO BE ANALYZED"
-        required=""
-      />
-      <!-- {% csrf_token %} {{ form.as_p }} -->
-      <button type="submit" class="input-button">
-        <img
-          src="assets/input-button.png"
-          alt="input button"
-          width="65%"
-          height="65%"
+      <div class="input-button">
+        <input
+          class="input-box"
+          name="input-box"
+          type="text"
+          placeholder="INPUT SOURCE URL TO BE ANALYZED"
+          required=""
         />
-      </button>
+        <button type="submit" class="input-button">
+          <img
+            src="assets/input-button.png"
+            alt="input button"
+            width="65%"
+            height="65%"
+          />
+        </button>
+      </sinput>
+        <!-- {% csrf_token %} {{ form.as_p }} -->
+      </div>
     </form>
 
     <div class="footer-a">

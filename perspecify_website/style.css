@@ -6,15 +6,31 @@ body {
   background-size: cover;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
+.navbar {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  padding-right: 70px;
+  padding-top: 2%;
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+}
 
-/* INPUT_FORM.HTM ---------------------------------------------------------------------- L*/
+.navbar a{
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* INPUT_FORM.HTML ---------------------------------------------------------------------- L*/
 
 /* HEADER */
+
 
 .header-a {
   filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
   text-align: center;
-  padding-top: 8%;
+  margin-top: 8px;
 }
 
 .project-name-a {
@@ -35,11 +51,10 @@ body {
   color: rgba(232, 232, 232, 0.7);
   width: 75%;
   height: 50px;
-  margin: 3% 10%;
+  margin: 3% 0% 3% 10%;
   border: solid 1px white;
   border-radius: 10px;
 }
-
 input::placeholder {
   font-weight: bold;
   opacity: 0.5;
@@ -65,18 +80,19 @@ input:focus::placeholder {
 /* BUTTON/SUBMIT/ARROW */
 
 button {
-  position: absolute;
+  /* border-radius: 10px; */
   border: none;
-  right: 225px;
-  top: 263px;
-  background-color: rgb(111, 111, 111, 0);
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+  background-color: rgba(232, 232, 232, 0); 
+  padding: 5px;
+  
 }
 
 button:active,
 button:focus {
-  border: 2px solid rgb(111, 111, 111, 0.2);
+  /* border: 2px solid rgba(255, 255, 255, 0.7); */
   border-radius: 5px;
-  background-color: rgb(111, 111, 111, 0.2);
+ background-color: rgba(225, 225, 225, 0.5); 
 }
 
 /* FOOTER */
@@ -94,6 +110,7 @@ button:focus {
 }
 
 /* ANALYSIS.HTML ---------------------------------------------------------------------- */
+
 
 .header-b {
   filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
@@ -228,4 +245,146 @@ button:focus {
   margin: 5px;
   padding: 10px 3px;
   opacity: 0.8;
+}
+
+
+/* INDEX PAGE (ABOUT AND CONTACT) -----------------------------------------------------*/
+
+
+/* ABOUT */
+.about-header {
+  margin: 3%;
+}
+.about-header p {
+  margin: 0 10%;
+  color: white;
+  font-weight: bold;
+}
+.about-header h1{
+  color: white;
+  font-family: "Darumadrop One", cursive;
+  padding-left: 100px;
+}
+
+.about-left-right {
+  margin: 0 12%;
+  display: flex;
+}
+
+.about-left-right h3{
+  font-size: 24px;
+  color: white;
+  font-family: "Darumadrop One", cursive;
+  margin: 0;
+}
+.about-left-right h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+.about-left-right h5, li{
+  color: white;
+}
+
+.about-left-side {
+  float: left;
+  width: 50%;
+}
+
+.about-right-side {
+  float: right;
+  width: 50%;
+}
+
+.about-section {
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+
+}
+
+.about-header p {
+  margin: 0 10%;
+  color: white;
+  font-weight: bold;
+}
+.misc-info p {
+  margin: 0 12%;
+  color: white;
+  font-weight: bold;
+  padding-left: 100px;
+}
+.misc-info h5{
+  margin: 0 12%;
+  font-size: 22px;
+  color: white;
+  font-family: "Darumadrop One", cursive;
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+
+}
+/* CONTACT */
+
+.contact-header {
+  margin: 3%;
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+
+}
+.contact-header p {
+  margin: 0 10%;
+  color: white;
+  font-weight: bold;
+
+}
+.contact-header h1{
+  color: white;
+  font-family: "Darumadrop One", cursive;
+  padding-left: 100px;
+
+}
+
+.contact-card{
+  margin: 0 10px;
+  background-color: rgba(255, 255, 255, 0.20);
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: white;
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+}
+
+
+.contact-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+
+}
+
+.contact-row-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-columns{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.contact-card h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-card h5{
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-card p{
+  font-size: 14px;
 }
