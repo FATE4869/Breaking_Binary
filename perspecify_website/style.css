@@ -6,6 +6,7 @@ body {
   background-size: cover;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 .navbar {
   position: absolute; 
   top: 0;
@@ -20,7 +21,27 @@ body {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  
 }
+
+
+.navbar-links{
+
+  position: absolute; 
+  top: 0;
+  right: 0;
+  padding-right: 70px;
+  padding-top: 2%;
+  filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 2px;
+}
+
 
 /* INPUT_FORM.HTML ---------------------------------------------------------------------- L*/
 
@@ -80,7 +101,6 @@ input:focus::placeholder {
 /* BUTTON/SUBMIT/ARROW */
 
 button {
-  /* border-radius: 10px; */
   border: none;
   filter: drop-shadow(4px 4px 10px rgb(111, 111, 111));
   background-color: rgba(232, 232, 232, 0); 
@@ -90,7 +110,6 @@ button {
 
 button:active,
 button:focus {
-  /* border: 2px solid rgba(255, 255, 255, 0.7); */
   border-radius: 5px;
  background-color: rgba(225, 225, 225, 0.5); 
 }
